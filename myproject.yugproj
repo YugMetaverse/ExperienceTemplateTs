@@ -1,0 +1,21 @@
+{
+	"experienceName": "My Awesome Experience",
+	"experienceVersion": "1.0",
+	"appVersion": "2.0",
+	"displayDescription": "This is my awesome experience!",
+	"enabled": true,
+	"imageURL": "https://www.example.com/image.png",
+	"isPublic": false,
+	"ownerId": "1234abcd",
+	"travelType": "VR",
+	"userAccess": [
+		{
+			"userId": "5678efgh",
+			"role": "editor"
+		},
+		{
+			"userId": "9012ijkl",
+			"role": "viewer"
+		}
+	]
+}
