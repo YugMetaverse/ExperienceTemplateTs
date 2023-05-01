@@ -1,7 +1,7 @@
 var path = require('path')
 const glob = require('glob');
 const fs = require('fs');
-var trans = require('./trans').default;
+var transformer = require('@yugmetaverse/tstransformer/yugtransformer').default;
 
 const entryPoints = () => {
     const entries = {};
@@ -47,7 +47,7 @@ module.exports = {
             loader: 'ts-loader',
             options: {
               getCustomTransformers: (program) => ({
-                before: [trans]
+                before: [transformer]
               })
             }
           }
