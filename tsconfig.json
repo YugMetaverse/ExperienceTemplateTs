@@ -1,0 +1,25 @@
+{  
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "strict": false,
+    "jsx": "react",
+    "sourceMap": true,
+    "typeRoots": [
+      "Plugins/Puerts/Typing",
+      "./node_modules/@yugmetaverse/yug_typings",
+      "./node_modules/@types"
+    ],
+    "target": "ESNext",
+    "noImplicitAny": false,
+    "module": "CommonJS",
+    "experimentalDecorators": true,  
+    "allowJs": true,
+    "outDir": "assets/javascript"
+  },
+  "exclude": [
+    "transformer.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
